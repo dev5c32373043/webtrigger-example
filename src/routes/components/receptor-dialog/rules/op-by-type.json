@@ -1,0 +1,31 @@
+{
+  "string": {
+    "eq": "equals",
+    "neq": "not equal",
+    "co": "contains",
+    "nco": "not contains",
+    "ex": "exists",
+    "nex": "not exists"
+  },
+  "number": {
+    "eq": "equals",
+    "neq": "not equal",
+    "gt": "greater than",
+    "gte": "greater or equal",
+    "lt": "less than",
+    "lte": "less or equal",
+    "ex": "exists",
+    "nex": "not exists"
+  },
+  "boolean": { "eq": "equals", "ex": "exists", "nex": "not exists" },
+  "date": {
+    "eq": "equals",
+    "neq": "not equal",
+    "gt": "greater than",
+    "gte": "greater or equal",
+    "lt": "less than",
+    "lte": "less or equal",
+    "ex": "exists",
+    "nex": "not exists"
+  }
+}

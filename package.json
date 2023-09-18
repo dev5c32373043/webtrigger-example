@@ -1,0 +1,38 @@
+{
+  "name": "svelte-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "npm run test:integration && npm run test:unit",
+    "lint": "prettier --plugin-search-dir . --check . && eslint .",
+    "format": "prettier --plugin-search-dir . --write .",
+    "test:integration": "playwright test",
+    "test:unit": "vitest"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.28.1",
+    "@sveltejs/kit": "^1.20.4",
+    "autoprefixer": "^10.4.15",
+    "daisyui": "^3.6.4",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-svelte": "^2.30.0",
+    "postcss": "^8.4.29",
+    "prettier": "^2.8.0",
+    "prettier-plugin-svelte": "^2.10.1",
+    "svelte": "^4.0.5",
+    "svelte-adapter-bun": "^0.5.0",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.2",
+    "vitest": "^0.32.2"
+  },
+  "type": "module",
+  "dependencies": {
+    "@zerodevx/svelte-toast": "^0.9.5",
+    "lodash": "^4.17.21",
+    "svelte-jsoneditor": "^0.18.3"
+  }
+}
