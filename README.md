@@ -2,7 +2,7 @@
 
 This example is built with [SvelteKit][sveltekit] to demonstrate the practical usage of [WebTrigger][webtrigger] service. [WebTrigger][webtrigger] is a service designed for simplified webhook management with basic filtering capabilities.
 
-![example](https://i.imgur.com/o53OHp3.gif)
+![preview](https://github.com/dev5c32373043/webtrigger-example/blob/main/preview.gif)
 
 ## Getting started
 
